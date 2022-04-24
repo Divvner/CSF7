@@ -1311,7 +1311,7 @@
 
 	.logo {
 		position: fixed;
-		top: -50px;
+		top: -47px;
 		left: -30px;
 		width: 40%;
 	}
@@ -1364,7 +1364,7 @@
 		width: 75px;
 		height: 75px;
 		filter: invert(100%);
-		margin-left: 150px;
+		margin-left: 170px;
 		margin-right: 30px;
 	}
 
