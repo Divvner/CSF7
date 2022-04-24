@@ -1,0 +1,63 @@
+
+
+/* 
+
+	Позиционирование линков на футере
+
+*/
+
+.block__footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.block-footer__image:hover {
+	transition: 0.4s;
+	transform: scale(1.1);
+	box-shadow: -5px 5px 5px rgb(21, 255, 0);
+}
+
+/*
+
+.block-footer-right__pad {
+	margin-left: 635px;
+} 
+
+*/
+
+.spotify {
+	width: 180px;
+	height: 105px;
+	border: 2px solid #000;
+	border-radius: 50%;
+}
+
+.github {
+	width: 75px;
+	height: 75px;
+	filter: invert(100%);
+}
+
+.github:hover {
+	box-shadow: none;
+}
+
+.youtube {
+	width: 75px;
+	height: 75px;
+}
+
+.youtube:hover {
+	box-shadow: none;
+}
+
+.ncs {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+
+.ncs:hover {
+	box-shadow: none;
+}
